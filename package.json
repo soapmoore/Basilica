@@ -1,0 +1,25 @@
+{
+  "name": "Basilica",
+  "version": "1.0.0",
+  "description": "- [Basilica!](#basilica)\r   - [Table of Contents](#table-of-contents)\r   - [Homework](#homework)\r   - [Reading](#reading)\r   - [Goals](#goals)\r   - [Initialize GIT with .gitignore](#initialize-git-with-gitignore)\r   - [NPM Initialization and Installs](#npm-initialization-and-installs)\r   - [Basilica Project](#basilica-project)\r     - [Starter CSS](#starter-css)\r   - [Responsive Images](#responsive-images)\r   - [Flex Layout](#flex-layout)\r   - [JavaScript](#javascript)\r     - [Aside: Node](#aside-node)\r     - [Add a Script](#add-a-script)\r   - [JavaScript Popover](#javascript-popover)\r   - [DOM Scripting Methods Used](#dom-scripting-methods-used)\r     - [matches](#matches)\r     - [Add Another Close Method](#add-another-close-method)\r   - [A Dynamic Popover](#a-dynamic-popover)\r     - [createElement](#createelement)\r     - [Appending Content](#appending-content)\r     - [innerHTML](#innerhtml)\r   - [DONE](#done)\r   - [Event Delegation](#event-delegation)\r   - [Notes](#notes)\r   - [Expressions](#expressions)\r   - [Statements](#statements)",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server 'app' --files 'app' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soapmoore/Basilica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soapmoore/Basilica/issues"
+  },
+  "homepage": "https://github.com/soapmoore/Basilica#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "concurrently": "^6.2.0",
+    "sass": "^1.35.1"
+  }
+}
