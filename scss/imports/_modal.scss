@@ -41,7 +41,7 @@
   align-items: center;
   opacity: 0;
   pointer-events: none;
-  transition-property: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 
 .modal-outer.open {

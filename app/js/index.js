@@ -26,17 +26,10 @@ function showPopover(event) {
 
 document.addEventListener('click', showPopover);
 
-function showPopover(event) {
-  // if (!event.target.matches('.beta, .closer')) return;
-  // modalOuter.classList.toggle('open');
-  // event.preventDefault();
-}
-
-document.addEventListener('click', showPopover);
-
-//basic code
+/*
+Mamas Spicy Basic
+*/
 const el = document.querySelector('h2');
-
 const basilChefs = ['mama', 'papa', 'baby'];
 const basilTexture = ['greasy', 'frozen', 'spicy'];
 
@@ -50,7 +43,9 @@ var recipeName = `${random(basilChefs)}'s ${random(basilTexture)} pesto`;
 
 el.innerHTML = recipeName;
 
-// api
+/**
+ * api
+ */
 const API = 'https://ron-swanson-quotes.herokuapp.com/v2/quotes';
 
 fetch(API)
