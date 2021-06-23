@@ -1,13 +1,9 @@
 @import 'imports/variables';
-
-@import 'imports/header';
-
-@import 'imports/nav';
-
-@import 'imports/base';
-
-@import 'imports/content';
-
 @import 'imports/fonts';
+@import 'imports/base';
+@import 'imports/header';
+@import 'imports/nav';
+@import 'imports/content';
+@import 'imports/modal';
 
-@import url(futura/stylesheet.css);
+// @import url(futura/stylesheet.css);
